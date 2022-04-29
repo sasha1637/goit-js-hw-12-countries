@@ -1,0 +1,14 @@
+<li class='card'>
+  <div class='card-list'>
+    <h2 class='card-title'> {{name.common}}</h2>
+    <p class='card-text'>Capital: {{capital}}</p>
+    <p class='card-text'>Population: {{population}}</p>
+    <p class='card-text'>Languages: </p>
+    <ul>{{#each languages}}
+
+        <li class='card-text'>{{this}}</li>
+
+      {{/each}}</ul>
+  </div>
+  <div><img class='card-img' src='{{flags.png}}' alt='{{name.common}}' width='200px' /></div>
+</li>
