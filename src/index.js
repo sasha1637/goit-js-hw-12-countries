@@ -25,7 +25,6 @@ errorMessage(`Oшибка ${countries.status}`);
 
 // отобразить карточку страны
 else if(countries.length===1){
-    console.log(countries[0])
 renderCountry(countries[0],cardCountri);
 }
 //отобразить список стран
